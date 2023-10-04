@@ -31,7 +31,7 @@ approx = "0.4.0"
 special = "0.10.2"
 # -- blas deps
 blas-src = { version = "0.8", optional = true, default-features = false }
-intel-mkl-src = { version = "0.5", optional = true, default-features = false }
+intel-mkl-src = { version = "0.5", optional = true, features = ["mkl-dynamic-lp64-iomp"] }
 cblas-sys = { version = "0.1.4", optional = true, default-features = false }
 
 [features]
