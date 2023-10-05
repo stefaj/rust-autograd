@@ -39,6 +39,7 @@ blas = []
 intel-mkl = ["intel-mkl-src", "cblas-sys"]
 accelerate = ["blas-src/accelerate", "cblas-sys"]
 openblas = ["blas-src/openblas", "cblas-sys"]
+blis = ["blas-src/blis", "cblas-sys"]
 
 [lib]
 name = "autograd"
